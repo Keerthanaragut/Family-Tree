@@ -1,49 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    
-.navbar {
-  width: 100%;
-  background-color:darkslategrey;
-  overflow: auto;
-}
-
-
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.navbar a:hover {
-  background-color: #000;
-}
-.navbar input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
-
-.active {
-  background-color:crimson;
-}
-
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-</style>
+<link rel="stylesheet" href="home.css">
 <html>
     <head>
         <title>Family Tree</title>
@@ -52,9 +9,12 @@
 
 <div class="navbar">
   <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-  <a href="Login.html"><i class="fa fa-fw fa-user"></i> Login</a>
-  <input type="text" placeholder="Search..">
+  <div class="nav-right">
+  <a class="hover-right" href="Login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a class="arange"><i class="fa fa-fw fa-search"></i> Search</a>
+  <input type="text" placeholder="type here..">
 </div>
+</div>
+
     </body>
 </html>
